@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+}
+.icons{
+    display: flex;
+} 
+.container-menu, .buscar, .icons{
+    display: flex;
+    width: 33%;   
+}
+.icons-rigth{
+    display: flex;
+    margin-left: 40%;
+}
+.icon-video, .icon-sino{
+    margin: 25px;
+}
+.img-youtube, .menu, .buscar{
+    margin: 20px;   
+}
+.img-cat img{
+    height: 40px;
+    border-radius: 50%;
+    margin: 15px;
+}
+.container-videos{
+    margin: 60px;
+    display: flex;
+}
+
+iframe{
+    height: 630px;
+    width: 1352px;
+}
+.box-small-text{
+    word-break: break-word;
+    font-family: "YouTube Sans","Roboto",sans-serif;
+    font-size: 1rem;
+    line-height: 2.8rem;
+    font-weight: 600;
+}
+.box-container-right{
+    display: flex;
+    margin: 0px 10px 20px 20px;
+    width:370px;
+  
+}
+.box-right{
+    display: flex;
+}
+.small-video{
+     width: 160px;
+     height: 90px;
+     border-radius: 10px;
+}
+.small-text{
+    margin: 8px;
+}
+.box-container-small-text{
+    width: 70%;
+    height:50px;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.center-line-dio, .register{
+     padding: 20px;
+}
+
+.card-description-view{
+    word-break: break-word;
+    font-family: "YouTube Sans","Roboto",sans-serif;
+    font-size: 1rem;
+    line-height: 2.8rem;
+    font-weight: 600;
+}
+.card-description-view-footer{
+  width: 42%;
+}
+
